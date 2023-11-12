@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="utls/style.css">
+    <script src="https://kit.fontawesome.com/6d8da61193.js" crossorigin="anonymous"></script>
+    <title>Star Bucks</title>
+</head>
+<body>
+    <div class="app">
+
+<!-- ==================================================== ***NAV BAR SECTION*** ====================================================== -->
+        <!-- App navbar -->
+        <nav>
+            <div class="app-navbar">
+                <!--Logo and Contents-->
+                <div class="logo-contents nav-items">
+                    <!--Logo-->
+                    <div>
+                        <img src="https://www.starbucks.in/assets/icon/logo.png" alt="logo">
+                    </div>
+                    <!--Items-->
+                    <div>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#gift-page">Gift</a></li>
+                            <li><a href="#order-page">Order</a></li>
+                            <li><a href="#pay">Pay</a></li>
+                            <li><a href="#store">Store</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Profile-->
+                <div class="profile">
+                    <form class="app-search card" id="search-focus">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" name="search" id="search" placeholder="Looking for something specific?">
+                    </form>
+                    <!-- Mobile view - show nav search icon  -->
+                    <a href="#app-search-active">
+                        <div class="nav-search-icon card">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </a>
+                    <!--...-->
+                    <img src="https://img.freepik.com/premium-photo/close-up-smiling-businessman-standing-front-modern-office-buildings_51195-4689.jpg" alt="user-profile">
+                    <!-- Mobile view - show nav menu icon  -->
+                    <a href="#nav-menu-open">
+                        <div class="nav-menu card">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                    </a>
+                    <!--...-->
+                </div>
+            </div>
+            <div id="app-search-active" class="app-search-mob">
+                <form class="app-search card">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" name="search" id="search" placeholder="Looking for something specific?">
+                </form>
+                <a href="">
+                    <div class="nav-cancel-search card">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </a>
+            </div>
+            <!-- Mobile view - show nav menu items  -->
+            <div id="nav-menu-open" class="nav-items">
+                <div class="nav-menu-items">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#gift">Gift</a></li>
+                        <li><a href="#order">Order</a></li>
+                        <li><a href="#pay">Pay</a></li>
+                        <li><a href="#store">Store</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--...-->
+        </nav>
+
+        <!-- App main -->
+<!-- ==================================================== ***BODY SECTION*** ====================================================== -->
+        <main class="app-body">
+            
+<!-- ==================================================== ***HOME SECTION*** ====================================================== -->
+            <div class="home">
+                <section class="home-section-1">
+                    <h3>Handcrafted Curations</h3>
+                    <!-- Grid Part -->
+                    <div class="grid-container home-grid">
+                        <div class="grid-item">
+                            <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/Bestseller.jpg" alt="coffee">
+                            <p class="card-title-h4">Bestseller</p>
+                        </div>
+                        <div class="grid-item">
+                            <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/Drinks.jpg" alt="coffee">
+                            <p>Drinks</p>
+                        </div>
+                        <div class="grid-item">
+                            <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/Food.jpg" alt="coffee">
+                            <p>Food</p>
+                        </div>
+                        <div class="grid-item">
+                            <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/Merchandise.jpg" alt="coffee">
+                            <p>Merchandise</p>
+                        </div>
+                        <div class="grid-item">
+                            <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/CoffeeAtHome.jpg" alt="coffee">
+                            <p>Coffee At Home</p>
+                        </div>
+                        <div class="grid-item">
+                            <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Category/Small/ReadyToEat.jpg" alt="coffee">
+                            <p>Ready to Eat</p>
+                        </div>
+                        <div class="grid-item">
+                            <img src="./utls/assets/coffee.jpg" alt="coffee">
+                            <p>Coffee</p>
+                        </div>
+                    </div>
+
+                    <!-- Slider Part -->
+                    <div class="home-slider card slider">
+                        <div class="slider-card">
+                            <img src="./utls/assets/coffee_banner.png" alt="banner">
+                        </div>
+                        <a href="">
+                            <div class="slider-left-arrow icon-btn">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="slider-right-arrow icon-btn">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </a>
+                        <div class="slider-button-parent">
+                            <button class="slider-button" type="submit">Know more</button>
+                        </div>
+                        
+                    </div>
+
+
+                </section>
+    
+                <section class="home-section-2">
+                    <h3>Latest Offerings</h3>
+                    <div class="latest-container slider">
+                        <div class="slider-card latest-item-list">
+                            <div class="latest-item-card card">
+                                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/102253.webp" alt="img">
+                                <div class="latest-contents">
+                                    <div class="new-lunch-row">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        <button class="app-button" type="button">New Launch</button>
+                                    </div>
+                                    <h4 class="card-title-h4">Pumpkin spice latte</h4>
+                                    <span class="sm-thin-text">SHORT(237 ML).219 kcal</span>
+                                    <p>Our signature espresso and steamed milk with the celebrated flavor combination of pumpkin, cinnamon, nutmeg an .</p>
+                                    <div class="price-div-row">
+                                        <h4>$414.75</h4>
+                                        <button class="app-button" type="button">Add Item</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="latest-item-card card">
+                                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/102257.webp" alt="img">
+                                <div class="latest-contents">
+                                    <div class="new-lunch-row">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        <button class="app-button" type="button">New Launch</button>
+                                    </div>
+                                    <h4 class="card-title-h4">Iced Pumpkin Spice Latte</h4>
+                                    <span class="sm-thin-text">SHORT(lced Tall Pumplin Spice latte).216 kcal</span>
+                                    <p>Our signature espresso and steamed milk with the celebrated flavor combination of pumpkin, cinnamon, nutmeg an .</p>
+                                    <div class="price-div-row">
+                                        <h4>$456.75</h4>
+                                        <button class="app-button" type="button">Add Item</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="latest-item-card card">
+                                <img src="./utls/assets/coffee_banner.png" alt="img">
+                                <div class="latest-contents">
+                                    <div class="new-lunch-row">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        <button class="app-button" type="button">New Launch</button>
+                                    </div>
+                                    <h4 class="card-title-h4">Latest Item Card</h4>
+                                    <span class="sm-thin-text">SHORT(237 ML).216 kcal</span>
+                                    <p>Our signature espresso and steamed milk with the celebrated flavor combination of pumpkin, cinnamon, nutmeg an .</p>
+                                    <div class="price-div-row">
+                                        <h4>$414.75</h4>
+                                        <button class="app-button" type="button">Add Item</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="latest-item-card card">
+                                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/102253.webp" alt="img">
+                                <div class="latest-contents">
+                                    <div class="new-lunch-row">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        <button class="app-button" type="button">New Launch</button>
+                                    </div>
+                                    <h4 class="card-title-h4">Pumpkin spice latte</h4>
+                                    <span class="sm-thin-text">SHORT(237 ML).219 kcal</span>
+                                    <p>Our signature espresso and steamed milk with the celebrated flavor combination of pumpkin, cinnamon, nutmeg an .</p>
+                                    <div class="price-div-row">
+                                        <h4>$414.75</h4>
+                                        <button class="app-button" type="button">Add Item</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="latest-item-card card">
+                                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/102257.webp" alt="img">
+                                <div class="latest-contents">
+                                    <div class="new-lunch-row">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        <button class="app-button" type="button">New Launch</button>
+                                    </div>
+                                    <h4 class="card-title-h4">Iced Pumpkin Spice Latte</h4>
+                                    <span class="sm-thin-text">SHORT(lced Tall Pumplin Spice latte).216 kcal</span>
+                                    <p>Our signature espresso and steamed milk with the celebrated flavor combination of pumpkin, cinnamon, nutmeg an .</p>
+                                    <div class="price-div-row">
+                                        <h4>$456.75</h4>
+                                        <button class="app-button" type="button">Add Item</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="">
+                            <div class="slider-left-arrow icon-btn">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="slider-right-arrow icon-btn">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+    
+                <section class="home-section-3">
+                    <div class="header-title">
+                        <h3>Barista Recommends</h3>
+                        <span>View Menu</span>
+                    </div>
+                    <div class="recommend-container">
+                        <div class="recommend-grid">
+                            <div class="recommend-card card">
+                                <div class="rec-img-contents">
+                                    <img src="./utls/assets/coffee_banner.png" alt="img">
+                                    <div class="rec-top-cont">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        <h4 class="card-title-h4">Strawberry Milkshake</h4>
+                                        <span class="sm-thin-text">IALL(Tall Strawberry Milkshake) .PER SERVE (354ML)-569 Kcal</span>
+                                    </div>
+                                </div>
+                                <div class="price-div-row">
+                                    <h4>$414.75</h4>
+                                    <button class="app-button" type="button">Add Item</button>
+                                </div>
+                            </div>
+                            <div class="recommend-card card">
+                                <div class="rec-img-contents">
+                                    <img src="./utls/assets/coffee_banner.png" alt="img">
+                                    <div class="rec-top-cont">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        <h4 class="card-title-h4">Strawberry Milkshake</h4>
+                                        <span class="sm-thin-text">IALL(Tall Strawberry Milkshake) .PER SERVE (354ML)-569 Kcal</span>
+                                    </div>
+                                </div>
+                                <div class="price-div-row">
+                                    <h4>$414.75</h4>
+                                    <button class="app-button" type="button">Add Item</button>
+                                </div>
+                            </div>
+                            <div class="recommend-card card">
+                                <div class="rec-img-contents">
+                                    <img src="./utls/assets/coffee_banner.png" alt="img">
+                                    <div class="rec-top-cont">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        <h4 class="card-title-h4">Strawberry Milkshake</h4>
+                                        <span class="sm-thin-text">IALL(Tall Strawberry Milkshake) .PER SERVE (354ML)-569 Kcal</span>
+                                    </div>
+                                </div>
+                                <div class="price-div-row">
+                                    <h4>$414.75</h4>
+                                    <button class="app-button" type="button">Add Item</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+    
+                <section class="home-section-4">
+                    <div class="header-title">
+                        <h3>Learn more about the world of coffee!</h3>
+                        <span>Discover More</span>
+                    </div>
+                    <div class="learn-more-about" style="background-image: url(https://preprodtsbstorage.blob.core.windows.net/cms/uploads/coffee_culture_blog_web1_c6e691b286.jpg);">
+                        <div class="stack">
+                            <div class="dot-view"></div>
+                            <div class="contents-view">
+                                <h1>How Coffee Stirred Revels & Rebels</h1>
+                                <p>Delighted by the jovial character of coffee, everyone was inspired to bring it home - leading to some of the most crucial firsts.</p>
+                                <button type="button">Learn More</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+
+<!-- ==================================================== ***GIFT SECTION*** ====================================================== -->
+            <div id="gift-page" class="gift">
+                <div class="privious-page-stack">
+                    <p><span>Home</span> > <span>Gift Cards</span></p>
+                </div>
+                <div class="gift-header">
+                    <div class="gift-header-item">
+                        <img src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/banner_icon_1_feafe78e1b.png", alt="img">
+                        <div class="content">
+                            <span>New Section, New Sips?</span>
+                            <h1>Autumn Merchandise</h1>
+                            <span>Embrace the fall vibes as you sip in style with Autumn merchandise featuring super moon and bunny.</span>
+                        
+                            <div class="bottom-row">
+                                <div class="starting-price">
+                                    <span >Starting From</span>
+                                    <h4>$650</h4>
+                                </div>
+                                <button type="button">Order Now</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-bar-view" class="tab-bar">
+                    <a href="">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </div>
+                    </a>
+                    <ul>
+                        <li><a href="#tab-bar-view">FEATURED</a></li>
+                        <li><a href="#anytime">ANYTIME</a></li>
+                        <li><a href="#congratulations">CONGRATULATIONS</a></li>
+                        <li><a href="#thank-you">THANK YOU</a></li>
+                    </ul>
+                    <a href="">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </a>
+                </div>
+                <div id="anytime" class="gift-body">
+                    <div class="gift-title">
+                        <h2>Anytime</h2>
+                        <hr/>
+                    </div>
+                    <div class="gift-grid">
+                        <div class="gift-card card">
+                            <img src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/17d2c94d_1bbe_47d5_874c_c32af5bb2c18_fc9ce3422f.png" alt="img">
+                            <div class="gift-content">
+                                <div class="">
+                                    <h4 class="card-title-h4">India Exclusive</h4>
+                                <span class="sm-thin-text">Bring in the festive season and make each celebration memorable.</span>
+                                </div>
+                                <button class="app-button" type="button">Add Item</button>
+                            </div>
+                        </div>
+                        
+                        <div class="gift-card card">
+                            <img src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/71d3780c_be6e_46b1_ab01_8a2bce244a7f_1_26502c2483.png" alt="img">
+                            <div class="gift-content">
+                                <div class="">
+                                    <h4 class="card-title-h4">Starbucks Coffee</h4>
+                                <span class="sm-thin-text">Starbucks is best when shared. Treat your pals to a good cup og coffee.</span>
+                                </div>
+                                <button class="app-button" type="button">Add Item</button>
+                            </div>
+                        </div>
+                        
+                        <div class="gift-card card">
+                            <img src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/7c6f7c64_3f89_4ba2_9af8_45fc6d94ad35_df43378185.jpg" alt="img">
+                            <div class="gift-content">
+                                <div class="">
+                                    <h4 class="card-title-h4">U Keep Me Warm</h4>
+                                <span class="sm-thin-text">Captivating. cosy, coffee. Gift your loved ones this Starbucks Gift Card.</span>
+                                </div>
+                                <button class="app-button" type="button">Add Item</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="congratulations" class="gift-body">
+                    <div class="gift-title">
+                        <h2>Congratulations</h2>
+                        <hr/>
+                    </div>
+                    <div class="gift-grid">
+                        <div class="gift-card card">
+                            <img src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/97ee3280_2f05_43ad_bd94_f5c184d4f502_1_2d1b049023.png" alt="img">
+                            <div class="gift-content">
+                                <div class="">
+                                    <h4 class="card-title-h4">Congrats</h4>
+                                <span class="sm-thin-text">Bring in the festive season and make each celebration memorable.</span>
+                                </div>
+                                <button class="app-button" type="button">Add Item</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thank-you" class="gift-body">
+                    <div class="gift-title">
+                        <h2>Thank You</h2>
+                        <hr/>
+                    </div>
+                    <div class="gift-grid">
+                        <div class="gift-card card">
+                            <img src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/720b9684_c1ac_49cb_92fe_a7e0240c9602_1_5d6c0c82c2.png" alt="img">
+                            <div class="gift-content">
+                                <div class="">
+                                    <h4 class="card-title-h4">Thank You</h4>
+                                <span class="sm-thin-text">To the people who make coffee and those who love it, thank you.</span>
+                                </div>
+                                <button class="app-button" type="button">Add Item</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- ==================================================== ***ORDER SECTION*** ====================================================== -->
+            <div id="order-page" class="order">
+                <div class="privious-page-stack">
+                    <p><span>Home</span> > <span>Order</span></p>
+                </div>
+                <div class="gift-header order-h">
+                    <div class="order-h-left">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="text" name="select-store" placeholder="No Store Selected">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>mins</span>
+                    </div>
+                    <div class="order-h-right group-btn">
+                        <div class="group-btn-item">
+                            <img src="https://www.starbucks.in/assets/icon/bike.svg">
+                            <span>Delivery</span>
+                        </div>
+                        <div class="group-btn-item">
+                            <img src="https://www.starbucks.in/assets/icon/Dinein.svg">
+                            <span>Dine-In</span>
+                        </div> 
+                        <div class="group-btn-item">
+                            <img src="https://www.starbucks.in/assets/icon/white-house.svg">
+                            <span>Takeaway</span>
+                        </div> 
+                    </div>
+                </div>
+                <div id="tab-bar-view" class="tab-bar nagetive15vw order-tb-1">
+                    <ul>
+                        <li><a href="#">Coffee At Home</a></li>
+                        <li><a href="#">Ready to Eat</a></li>
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Food</a></li>
+                        <li><a href="#">Bestseller</a></li>
+                        <li><a href="#">Drinks</a></li>
+                    </ul>
+                </div>
+                <div id="tab-bar-view" class="tab-bar order-tb-2">
+                    <a href="">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </div>
+                    </a>
+                    <ul>
+                        <li><a href="#">Espresso</a></li>
+                        <li><a href="#">Frappuccino* Blended Beverages</a></li>
+                        <li><a href="#">Other Beverages</a></li>
+                        <li><a href="#">Brewed Coffee</a></li>
+                        <li><a href="#">Tea</a></li>
+                        <li><a href="#">Cold Brew</a></li>
+                        <li><a href="#">Subscription Other Beverages</a></li>
+                        
+                    </ul>
+                    <a href="">
+                        <div class="icon-btn">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </a>
+                </div>
+                <div id="tab-bar-view" class="order-filter-tabs">
+                    <a href="">
+                        <img src="https://www.starbucks.in/assets/icon/Union.svg">
+                    </a>
+                    <ul>
+                        <li><a href="#">Hot</a></li>
+                        <li><a href="#">Cold</a></li>
+                        <li><a href="#">Milkshake</a></li>
+                        <li><a href="#">Black</a></li>
+                        <li><a href="#">Blended</a></li>
+                        <li><a href="#">Caffeine free</a></li>
+                        <li><a href="#">Nitro</a></li>
+                        <li><a href="#">On Tap</a></li>
+                        <li><a href="#">Ice Cream</a></li>
+                        <li><a href="#">Cream</a></li>
+                        <li><a href="#">Brew</a></li>
+                        <li><a href="#">Juice</a></li>
+                        <li><a href="#">Ice cream</a></li>
+                        <li><a href="#">Caffeine Free</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="gift-body">
+                    <div class="gift-title">
+                        <h3>Espresso</h3>
+                        <p>Our smooth signature Espresso Roast with rich flavor and caramelly sweetness is at the very heart of everything we do.</p>
+                    </div>
+                    <div class="gift-grid">
+                        
+                        <div class="recommend-card card">
+                            <div class="rec-img-contents">
+                                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/107898_1.jpg" alt="img">
+                                <div class="con-content rec-top-cont">
+                                    <span>
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        <h4 class="card-title-h4">Iced Roasted Nut Latte</h4>
+                                        <span class="sm-thin-text">IALL(354 ML) .306 Kcal</span>
+                                        <p>A perfect blend of Milk, Espresso and Cashew Nut Sauce finis...</p>
+                                    </span>
+                                    <div class="price-div-row">
+                                        <h4>$414.75</h4>
+                                        <button class="app-button" type="button">Add Item</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="recommend-card card">
+                            <div class="rec-img-contents">
+                                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/104018.jpg" alt="img">
+                                <div class="con-content rec-top-cont">
+                                    <span>
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        <h4 class="card-title-h4">Iced Mocha Cookie Crumble</h4>
+                                        <span class="sm-thin-text">386 kcal<br/>IALL(354 ML) .386 kcal</span>
+                                        <p>A mix of cocoa powder, Vanilla flavour and espresso shot...</p>
+                                    </span>
+                                    <div class="price-div-row">
+                                        <h4>$446.25</h4>
+                                        <button class="app-button" type="button">Add Item</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="recommend-card card">
+                            <div class="rec-img-contents">
+                                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/107898_1.jpg" alt="img">
+                                <div class="con-content rec-top-cont">
+                                    <span>
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        <h4 class="card-title-h4">Iced Roasted Nut Latte</h4>
+                                        <span class="sm-thin-text">IALL(354 ML) .306 Kcal</span>
+                                        <p>A perfect blend of Milk, Espresso and Cashew Nut Sauce finis...</p>
+                                    </span>
+                                    <div class="price-div-row">
+                                        <h4>$414.75</h4>
+                                        <button class="app-button" type="button">Add Item</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="recommend-card card">
+                            <div class="rec-img-contents">
+                                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/107898_1.jpg" alt="img">
+                                <div class="con-content rec-top-cont">
+                                    <span>
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        <h4 class="card-title-h4">Iced Roasted Nut Latte</h4>
+                                        <span class="sm-thin-text">IALL(354 ML) .306 Kcal</span>
+                                        <p>A perfect blend of Milk, Espresso and Cashew Nut Sauce finis...</p>
+                                    </span>
+                                    <div class="price-div-row">
+                                        <h4>$414.75</h4>
+                                        <button class="app-button" type="button">Add Item</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="recommend-card card">
+                            <div class="rec-img-contents">
+                                <img src="https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Small/107898_1.jpg" alt="img">
+                                <div class="con-content rec-top-cont">
+                                    <span>
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        <h4 class="card-title-h4">Iced Roasted Nut Latte</h4>
+                                        <span class="sm-thin-text">IALL(354 ML) .306 Kcal</span>
+                                        <p>A perfect blend of Milk, Espresso and Cashew Nut Sauce finis...</p>
+                                    </span>
+                                    <div class="price-div-row">
+                                        <h4>$414.75</h4>
+                                        <button class="app-button" type="button">Add Item</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+
+        
+<!-- ==================================================== ***FOOTER SECTION*** ====================================================== -->
+        <!-- App footer -->
+        <footer class="app-footer">
+            <div>
+                <div class="footer-contents">
+                    <div class="footer-item footer-logo">
+                        <div>
+                            <img src="https://www.starbucks.in/assets/icon/logo.png" alt="logo">
+                        </div>
+                    </div>
+                    <div class="footer-item footer-about-us">
+                        <h3>About Us</h3>
+                        <p>Our Heritage</p>
+                        <p>Our Company</p>
+                        <p>Coffeehouse</p>
+                    </div>
+                    <div class="footer-item footer-responsibility">
+                        <h3>Responsibility</h3>
+                        <p>Community</p>
+                        <p>Ethical Sourcing</p>
+                        <p>Environment</p>
+                        <p>Diversity</p>
+    
+                    </div>
+                    <div class="footer-item quick-links">
+                        <h3>Quick Links</h3>
+                        <p>Careers</p>
+                        <p>Season's Gifting</p>
+                        <p>FAQs</p>
+                        <p>Customer Service</p>
+                        <p>Delivery</p>
+                        <p>Privacy Policy</p>
+                        <p>Starbucks Rewards Day Offer</p>
+                        <p>Offer for Beverage Subscription at Starbucks</p>
+                        <p>Terms and Conditions</p>
+                    </div>
+                    <div class="footer-item social-media">
+                        <h3>SOCIAL MEDIA</h3>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item mobile-app-links">
+                        <a href="#">
+                            <div class="mob-app-store-card">
+                                <p class="store-icon"><i class="fa-brands fa-apple"></i></p>
+                                <div class="">
+                                    <p>DOWNLOAD ON THE</p>
+                                    <p>App Store</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="mob-app-store-card">
+                                <p class="store-icon"><i class="fa-brands fa-google-play"></i></p>
+                                <div class="">
+                                    <p>GET IT ON</p>
+                                    <p>Google Play</p>
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            
+                
+            </div>
+            <div class="hz-line"></div>
+            <div class="footer-bottom-status">
+                <div class="footer-bottom-left">
+                    <ul>
+                        <li>Web Accessiblity</li>
+                        <li>|</li>
+                        <li>Privacy Statement</li>
+                        <li>|</li>
+                        <li>Terms of Use</li>
+                        <li>|</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="footer-bottom-right">
+                    <p>&copy;2023 Starbucks Coffee Company. All rights reserved.</p>
+                </div>
+            </div>
+            
+            </div>
+        </footer>
+
+ 
+    </div>
+</body>
+</html>
