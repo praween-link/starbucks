@@ -121,6 +121,7 @@ button:hover{
     position: relative;
 }
 nav{
+    z-index: 50;
     position: sticky;
     top: 0px; left: 0px;
     background-color: var(--text-color-light);
@@ -605,6 +606,7 @@ nav{
     display: flex;
     justify-content: center;
     position: relative;
+    z-index: 49;
 }
 .slider-card{
     height: 100%;
@@ -619,13 +621,14 @@ nav{
     position: absolute;
     left: -30px;
     top: 40%;
+    z-index: 45;
 }
 .slider-right-arrow{
     background-color: #fff;
     position: absolute;
     right: -20px;
     top: 40%;
-    
+    z-index: 45;
 }
 .slider-left-arrow i{
     color: var(--color-primary-light);
@@ -653,6 +656,7 @@ nav{
     position: absolute;
     right: 20px;
     top: 80%;
+    z-index: 45;
 }
 
 .slider-button{
@@ -660,6 +664,7 @@ nav{
     position: absolute;
     bottom: 10%;
     right: 2%;
+    z-index: 45;
 }
 
 /* ----------------- Latest Offerings ----------------- */
