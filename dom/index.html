@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+
+<body>
+    <h1 id="h1id">Dom Menipulation First</h1>
+    <h1 class="h1class">Dom Menipulation Secound</h1>
+    <div class="div1" id="div1Id">
+        <h1 onclick="alert('Hello, this is alert box provided by window!')">Hearder One</h1>
+        <h5>It's a description</h5>
+        <p>It's a description and paramenters</p>
+    </div>
+
+    <div class="div2"></div>
+    <div class="div3"></div>
+
+    <ul id="list">
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+    </ul>
+
+
+
+    <script>
+
+        const li = document.querySelectorAll("h1");
+        for (let ele of li) {
+            console.log(`E: ${ele}`);
+            ele.style.color = 'pink';
+        }
+        //-----------
+        const body = document.querySelector("#h1id");
+        body.style.backgroundColor = "yellow";
+        console.log("--------Query Selector");
+        const para = document.querySelector("p");
+        console.log(para); // --select first one
+        para.style.color = 'blue';
+        console.log(document.querySelectorAll("h1"));
+
+        console.log("--------Get Element By Id");
+        const headingById = document.getElementById("h1id");
+        console.log(headingById);
+        headingById.style.color = 'red';
+
+        console.log("--------Get Element By Class");
+        const eleClass = document.getElementsByClassName("h1class");
+        console.log(eleClass);
+
+        console.log("--------Get Element By Tag name");
+        console.log(document.getElementsByTagName("h5"));
+
+        //
+        para.innerText = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
+
+        /// setAttribute Method
+        const divElement = document.getElementById('div1Id');
+        divElement.setAttribute('data-info', 'Some additional info');
+
+
+    </script>
+
+    <script src="create_an_element.js"></script>
+</body>
+
+</html>
